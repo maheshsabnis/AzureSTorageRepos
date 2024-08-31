@@ -15,7 +15,7 @@ var tableClient = serviceClient.GetTableClient(TableName);
 // Create a table if it is not exists
 tableClient.CreateIfNotExists();
 Console.WriteLine("Table Created");
- 
+ //Access class
 
 TableStorageExample tableStorageExample = new TableStorageExample();
 
